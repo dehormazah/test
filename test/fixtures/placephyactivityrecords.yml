@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: placephyactivityrecords
+#
+#  id             :integer          not null, primary key
+#  place_id       :integer
+#  phyactivity_id :integer
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  place_id: 1
+  phyactivity_id: 1
+
+two:
+  place_id: 1
+  phyactivity_id: 1

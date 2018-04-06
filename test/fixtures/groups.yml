@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: groups
+#
+#  id          :integer          not null, primary key
+#  name        :string
+#  sort        :string
+#  description :text
+#  num_members :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  description: MyText
+  num_members: 1
+
+two:
+  name: MyString
+  type: 
+  description: MyText
+  num_members: 1

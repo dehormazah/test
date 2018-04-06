@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: phyactivities
+#
+#  id                :integer          not null, primary key
+#  name              :string
+#  description       :text
+#  duration          :string
+#  required_elements :string
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  duration: MyString
+  required_elements: MyString
+
+two:
+  name: MyString
+  description: MyText
+  duration: MyString
+  required_elements: MyString

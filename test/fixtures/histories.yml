@@ -1,0 +1,50 @@
+# == Schema Information
+#
+# Table name: histories
+#
+#  id               :integer          not null, primary key
+#  description      :text
+#  genre            :string
+#  birth_date       :date
+#  age              :integer
+#  weight           :integer
+#  height           :integer
+#  start            :datetime
+#  num_achievements :integer
+#  num_diets        :integer
+#  num_plans        :integer
+#  num_groups       :integer
+#  num_events       :integer
+#  level            :string
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  user_id          :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  weight: 1.5
+  height: 1
+  start: 2018-03-10 13:45:19
+  current_time: 2018-03-10 13:45:19
+  num_achievements: 1
+  num_diets: 1
+  num_physical_activities: 1
+  num_groups: 1
+  num_events: 1
+  level: MyString
+
+two:
+  description: MyText
+  weight: 1.5
+  height: 1
+  start: 2018-03-10 13:45:19
+  current_time: 2018-03-10 13:45:19
+  num_achievements: 1
+  num_diets: 1
+  num_physical_activities: 1
+  num_groups: 1
+  num_events: 1
+  level: MyString

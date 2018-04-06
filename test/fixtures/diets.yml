@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: diets
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  sort       :text
+#  start_date :datetime
+#  end_date   :datetime
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  start_date: 2018-03-07 20:42:52
+  end_date: 2018-03-07 20:42:52
+
+two:
+  name: MyString
+  start_date: 2018-03-07 20:42:52
+  end_date: 2018-03-07 20:42:52

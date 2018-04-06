@@ -1,0 +1,462 @@
+{
+	"id": "d1f9cc5a-5ec5-413e-8def-f9f01f73cc26",
+	"name": "BE Requests",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"a8a37809-6399-4885-b94b-ed2a1614ca18",
+		"64eb6961-75c8-4ffb-8a35-749ce5711d5d",
+		"9e8b648d-25cf-4884-940a-bb844f679d57",
+		"72013267-1430-4f0b-b389-6feda4597bdd",
+		"555f821c-22e5-40a1-83d3-debae5e2bfa8",
+		"884605b7-0923-48f9-9a9c-3f8ac3fb0a10",
+		"1a587091-6012-4522-b1c5-f8471b6cb1a1",
+		"42f0a4ca-5bdf-445b-a3ca-202f962a9215",
+		"e511cbbe-1384-406a-bc69-5052162c6c43",
+		"768baffe-b98b-4ce9-bff1-54d931fdbb28",
+		"417dee55-5e2d-4c1c-8be2-92a31162eb1d",
+		"c5d6e531-01fe-454a-8750-ca5aa8d8da27",
+		"66fbee0c-6c6b-45f5-a839-d1557c68f210",
+		"97fb2e32-5e58-470b-97b3-662e657cd969",
+		"9d943463-f61b-4a7c-a1fd-f0ec993e0fac",
+		"ee248c8b-383b-4552-8574-95b999839cc0",
+		"b781bdd5-c7df-40eb-a922-71de3d7d35d5",
+		"637d022c-7fc1-469b-8f6a-372acb2d0123",
+		"0f49344a-b203-4b5a-9255-68e2696e5d46",
+		"bd94cc32-8ce7-4e5e-b30c-793caefbeeb0"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "0f49344a-b203-4b5a-9255-68e2696e5d46",
+			"name": "POST Place",
+			"url": "http://localhost:3000/place",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"place\":{\"name\":\"gym\",\"location\":\"en el estadio\",\"latitude\":71,\"longitude\":72}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1a587091-6012-4522-b1c5-f8471b6cb1a1",
+			"name": "POST Diet",
+			"url": "http://localhost:3000/diets",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"diet\":{\"name\":\"Keto\",\"star_date\":\"2018-03-16T00:00:00.000Z\",\"end_date\":\"2018-03-16T00:00:00.000Z\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "417dee55-5e2d-4c1c-8be2-92a31162eb1d",
+			"name": "POST Achi",
+			"url": "http://localhost:3000/achievements",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"achievement\":{\"name\":\"novato\",\"description\":\"un logro\",\"date\":\"2018-03-16T00:00:00.000Z\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "42f0a4ca-5bdf-445b-a3ca-202f962a9215",
+			"name": "GET Diet",
+			"url": "http://localhost:3000/diets",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "555f821c-22e5-40a1-83d3-debae5e2bfa8",
+			"name": "DEL Diet",
+			"url": "http://localhost:3000/diets/1",
+			"description": "",
+			"data": [],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "637d022c-7fc1-469b-8f6a-372acb2d0123",
+			"name": "PUT Place",
+			"url": "http://localhost:3000/place/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"place\":{\"name\":\"gym\",\"location\":\"en el estadio\",\"latitude\":71,\"longitude\":71}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "64eb6961-75c8-4ffb-8a35-749ce5711d5d",
+			"name": "PUT User",
+			"url": "http://localhost:3000/users/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"user\":{\"name\":\"asdasd\",\"email\":\"sjujjudada@unal.edu.co\",\"bio\":\"hola que haces\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "66fbee0c-6c6b-45f5-a839-d1557c68f210",
+			"name": "DEL Food",
+			"url": "http://localhost:3000/foods/1",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "72013267-1430-4f0b-b389-6feda4597bdd",
+			"name": "GET User",
+			"url": "http://localhost:3000/users",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "768baffe-b98b-4ce9-bff1-54d931fdbb28",
+			"name": "PUT Achi",
+			"url": "http://localhost:3000/achievements/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"achievement\":{\"name\":\"novato\",\"description\":\"otro logro\",\"date\":\"2018-03-16T00:00:00.000Z\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "884605b7-0923-48f9-9a9c-3f8ac3fb0a10",
+			"name": "PUT Diet",
+			"url": "http://localhost:3000/diets/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"diet\":{\"name\":\"Keto\",\"star_date\":\"2018-03-16T00:00:00.000Z\",\"end_date\":\"2018-03-16T00:00:00.000Z\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "97fb2e32-5e58-470b-97b3-662e657cd969",
+			"name": "PUT Food",
+			"url": "http://localhost:3000/foods/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"food\":{\"name\":\"verduras asiaticas\",\"type\":\"vegetal\",\"description\":\"ricas\",\"averageprice\":\"300$\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9d943463-f61b-4a7c-a1fd-f0ec993e0fac",
+			"name": "POST Food",
+			"url": "http://localhost:3000/foods",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"food\":{\"name\":\"verduras asiaticas\",\"type\":\"vegetal\",\"description\":\"ricas\",\"averageprice\":\"200$\"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9e8b648d-25cf-4884-940a-bb844f679d57",
+			"name": "POST User",
+			"url": "http://localhost:3000/users",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\"user\":{\"name\":\"asdasd\",\"email\":\"sdada@unal.edu.co\",\"bio\":\"hola como estas \"}}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a8a37809-6399-4885-b94b-ed2a1614ca18",
+			"name": "DEL User",
+			"url": "http://localhost:3000/users/1",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b781bdd5-c7df-40eb-a922-71de3d7d35d5",
+			"name": "DEL Place",
+			"url": "http://localhost:3000/places/1",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "bd94cc32-8ce7-4e5e-b30c-793caefbeeb0",
+			"name": "GET Place",
+			"url": "http://localhost:3000/place",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c5d6e531-01fe-454a-8750-ca5aa8d8da27",
+			"name": "GET Achi",
+			"url": "http://localhost:3000/achievements",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e511cbbe-1384-406a-bc69-5052162c6c43",
+			"name": "DEL Achi",
+			"url": "http://localhost:3000/achievements/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ee248c8b-383b-4552-8574-95b999839cc0",
+			"name": "GET Food",
+			"url": "http://localhost:3000/foods",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}

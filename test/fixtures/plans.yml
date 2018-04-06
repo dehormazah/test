@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: plans
+#
+#  id          :integer          not null, primary key
+#  name        :string
+#  sort        :string
+#  description :text
+#  start_date  :datetime
+#  end_date    :datetime
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  description: MyText
+  start_date: 2018-03-10 11:57:24
+  end_date: 2018-03-10 11:57:24
+
+two:
+  name: MyString
+  type: 
+  description: MyText
+  start_date: 2018-03-10 11:57:24
+  end_date: 2018-03-10 11:57:24
